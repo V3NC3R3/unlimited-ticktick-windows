@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7  # <-- Actualizado a v7
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5 # <-- Actualizado a v5
         with:
           dotnet-version: '8.0.x'
 
